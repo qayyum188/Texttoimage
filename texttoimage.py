@@ -14,7 +14,7 @@ st.write("Created by Abdul Qayyum")
 pipeline_type = st.selectbox("Select Pipeline", ["FluxPipeline", "DiffusionPipeline"])
 
 # Input prompt
-prompt = st.text_input("Enter your Text:")
+prompt = st.text_input("Enter your prompt:")
 
 # Generate image button
 if st.button("Generate Image"):
